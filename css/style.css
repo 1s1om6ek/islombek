@@ -1,0 +1,40 @@
+.hero__title{
+    font-size: 60px;
+}
+.hero__title img{
+    width: 200px;
+}
+
+.card__wrapper{
+    width: auto;
+    display: flex;
+    justify-content:space-around;
+}
+.card__items{
+    width: 100px;
+    height: auto;
+}
+.nav__list{
+    width: 1920px;
+height: 540px;
+flex-shrink: 0;
+background: linear-gradient(90deg, #A18CD1 0%, #FBC2EB 100%);
+margin-left: auto;
+}
+.wrepper__items img {
+    width: 1300px;
+height: 500px;
+flex-shrink: 0;
+    border-radius: 14px;
+background: url(<path-to-image>), lightgray 50% / cover no-repeat, #F8F8F8;
+margin-right: auto;
+}.nav__items{
+    display: flex;
+    width: 261px;
+    height: 72px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+}
